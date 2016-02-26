@@ -1,0 +1,292 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.header_cont {
+		width: 80%;
+	}
+	.logo_wrapper {
+		width: 70%;
+		position: relative;
+	}
+	.logo_left {
+		width: 30%;
+	}
+	.logo_right {
+		width: 67%;
+		position: absolute;	
+	}
+	.menu_cont {
+		width: 80%;
+		text-align: center;
+	}
+	.li_1 {
+		width: 80px;
+	}
+	.hover_ul_2 {
+		width: 80px;
+	}
+	.second_cont {
+		width: 75%;
+	}
+	.big_box {
+		width: 60%;
+	}
+	.small_1 {
+		width: 37%;
+	}
+	.small_2 {
+		width: 37%;
+	}
+	.text_header {
+		width: 80%;
+	}
+	.news_cont{
+		width: 75%;
+		text-align: center;
+	}
+	.news_item {
+		width: 20%;
+		height: 172px;
+	}
+	.story_wrapper {
+		width: 75%;
+	}
+	.items {
+		width: 65%;
+	}
+	.item {
+		width: 95%;
+	}
+	.item_img {
+		width: 50%;
+	}
+	.item_text {
+		width: 45%;
+	}
+	.item_text h2 {
+		font-size: 14px;
+	}
+	.item_text p {
+		font-size: 12px;
+		width: 100%;
+	}
+	.side_bar {
+		width: 30%;
+	}
+	.follow_item {
+		width: 23%;
+		margin-right: 20px;
+	}
+	.follow_item p {
+		font-size: 8px;
+	}
+	.buy_me {
+		width: 100%;
+	}
+	.prev_next_wrapper {
+		width: 100%;
+	}
+	.prev_next {
+		width: 60%;
+	}
+	.prev_next a {
+		font-size: 12px;
+	}
+	.social_cont_wrapper {
+		width: 75%;
+	}
+	.soc_cont {
+		width: 30%;
+	}
+	.soc_cont .img_box {
+		width: 20%;
+	}
+	.main_footer {
+		width: 75%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.soc_cont .img_box:nth-child(5), .soc_cont .img_box:last-child {
+		margin-right: 2px;
+	}
+	.lorem_bot {
+		font-size: 12px;
+	}
+	.soc_cont {
+		width: 28%;
+	}
+	.li_1 {
+		font-size: 12px;
+	}
+	.hover_ul_3 {
+		width: 80px;
+		right: -82px;
+	}
+	.main_mnu .hover_ul_1 {
+		margin-right: 15px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.main_mnu .hover_ul_1 {
+		margin-right: 0;
+	}
+	.footer_left .span_left {
+		margin-right: 0;
+		font-size: 12px;
+	}
+	.footer_right .span_right {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width : 705px) {
+	.news_item {
+		margin-right: 20px;
+	}
+	.item_img {
+		height: 145px;
+		width: 40%;
+	}
+	.items {
+		width: 100%;
+		border-right: none;
+	}
+	.item_text {
+		width: 57%;
+	}
+	.item_text h2 {
+		font-size: 12px;
+		margin-top: 0;
+	}
+	.item_text p {
+		font-size: 9px;
+	}
+	.side_bar {
+		width: 100%;
+		display: block;
+		position: relative;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.prev_next_wrapper {
+		text-align: center;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.prev_next {
+		width: 100%;
+		padding: 20px 0;
+	}
+	.prev_next a {
+		margin-right: 5px;
+	}
+}
+@media only screen and (max-width : 627px) {
+	.menu_cont {
+		height: 150px;
+	}
+	.header_left ul li {
+		margin-right: 10px;
+		font-size: 12px;
+	}
+	.header_right {
+		margin-right: 0;
+	}
+	.header_right .search_form .search_input {
+		width: 110px;
+		font-size: 12px;
+	}
+	.search_btn {
+		line-height: 32px;
+		height: 34px;
+	}
+	.header_right .search_form .search_input {
+		margin-right: 5px;
+	}
+	.logo_left {
+		font-size: 20px;
+	}
+	.soc_cont {
+		display: block;
+		width: 100%;
+		padding: 20px 0;
+		text-align: center;
+	}
+	.soc_cont .img_box {
+		width: 18%;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.header_cont {
+		height: 100px;
+	}
+	.header_right {
+		float: none;
+		height: 50px;
+		line-height: 50px;
+	}
+	.header_left {
+		height: 45px;
+		line-height: 45px;
+	}
+	.header_left,.header_right {
+		display: block;
+		text-align: center;
+	}
+	.hover_ul_1:nth-child(3) .li_2:hover .hover_ul_3,.hover_ul_1:nth-child(6) .li_2:hover .hover_ul_3 {
+		left: -82px;
+	}
+	.second_cont {
+		margin-bottom: 50px;
+	}
+	.second_cont,.big_box {
+		height: 150px;
+	}
+	.small_1 {
+		height: 70px;
+		margin-bottom: 10px;
+	}
+	.small_2 {
+		height: 70px;
+	}
+	.news_cont {
+		margin-bottom: 50px;
+	}
+	.news_item {
+		height: 70px;
+		margin-right: 10px;
+	}
+	.footer_left {
+		padding-left: 5px;
+	}
+	.footer_right {
+		padding-right: 5px;
+	}
+	.footer_left .span_left {
+		margin-right: 0;
+		font-size: 10px;
+	}
+	.footer_right .span_right {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width : 410px) {
+	.main_footer {
+		height: 60px;
+	}
+	.footer_right {
+		float: none;
+	}
+	.footer_left,.footer_right {
+		display: block;
+		text-align: center;
+		padding: 0;
+		height: 30px;
+		line-height: 30px;
+	}
+}
